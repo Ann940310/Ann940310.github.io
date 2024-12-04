@@ -4,7 +4,6 @@
     padding: 5px;
     margin: 5px;
 }
-html{border: #3134ad 1px solid;}
 body {
     color:#363636;
     background-color:#EBEFF2;
@@ -12,7 +11,6 @@ body {
     font-family:"LXGW WenKai Mono TC", monospace;
     font-weight: 300;
     font-style: normal;
-    border: #4e4fc0 1px solid;
 } 
 header,footer{
     background-color:#E3EEFF;
