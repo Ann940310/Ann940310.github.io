@@ -1,45 +1,157 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Hill Backery</title>
-    <link rel="stylesheet" href="style.css">
+    <title>綠崗麵包工坊 | Green Hill Bakery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css" />
 </head>
 <body>
-    <header>
-    <h1><a href="index.html">Green Hill Backery</a></h1>
-    <h2>綠崗麵包坊</h2>
-    <nav>
-    <ul>
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="products.html">產品</a></li>
-        <li><a href="about.html">綠崗麵包坊</a></li>
-        <li><a href="contact.html">營業資訊</a></li>
-    </ul>
-    </nav>
-    </header>
-    <maim>
-    <h2>味蕾New的詩篇</h2>
-    <blockquote>"以咖啡香為詩，麵包為韻，譜寫屬於你的味蕾詩篇。"</blockquote>
-    <p style="width:80%;text-align:left">
 
-        <img src="images/greenhouse.png" width="40%" style="float: left;margin-right: 30px">
-        在喧囂城市的一角，綠崗麵包工坊像是一座孤島，<br>
-        靜靜地訴說著關於麵粉、酵母和時間的故事。<br>
-        透過落地窗，陽光灑落在揉麵台上，<br>
-        烘焙師的手在麵糰上輕柔地舞動，就像一位藝術家在創作，<br>
-        每一塊麵包都是一幅獨一無二的畫作。推開綠崗麵包工坊的門，<br>
-        空氣中散發出家的味道。溫暖的燈光、<br>
-        木質的桌椅，佐以麵包與咖啡濃郁的香氣，<br>
-        都讓人感到無比的舒適。坐在窗邊，<br>
-        看著街上的行人匆匆忙忙，<br>
-        而自己卻能靜靜地享受著一杯咖啡和一份手工麵包，<br>
-        那種寧靜的幸福感讓人難以言喻。<br>
-    </p>
-    </maim>
-    <footer>
-        <p>Copyright &copy; 2024 綠崗烘焙坊 All Rights Reserved</p>
-    </footer>
+<header class="uk-background-muted uk-padding">
+    <div class="uk-container uk-flex uk-flex-between uk-flex-middle">
+        <!-- Logo Section -->
+        <div class="uk-flex uk-flex-middle">
+            <img src="photo/logo.jpg" alt="Logo" style="height: 90px; margin-right: 90px;">
+            <div>
+                <h1 class="uk-margin-remove">綠崗早午餐</h1>
+                <h2 class="uk-margin-remove uk-text-meta">Green Ridge Brunch</h2>
+            </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="uk-navbar-nav uk-visible@m">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">關於我們</a></li>
+                <li><a href="#">產品</a></li>
+                <li><a href="#">聯絡我們</a></li>
+                <li><a href="宜臻/index.html">舊網站</a></li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <a class="uk-navbar-toggle uk-hidden@m" href="#mobile-menu" uk-toggle>
+                <span uk-navbar-toggle-icon></span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<!-- Features Section -->
+<section class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h2 class="uk-heading-line uk-text-center"><span>在地就是新鮮</span></h2>
+        <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">安靜舒適的用餐空間</h3>
+                    <p>店內擺設走現代風格，搭配高質感皮革座椅與木質桌面，提供溫馨、放鬆的環境，讓顧客能輕鬆享受美好的早午餐時光。</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">精緻多樣的餐點選擇</h3>
+                    <p>招牌三明治系列如雞腿排蛋三明治、海鹽牛五花三明治等，嚴選國產肉品與美國牛肉，搭配新鮮蔬菜和自製福源花生醬，層次豐富、口味獨特。</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">高CP值早午餐體驗</h3>
+                    <p>豐富的碳烤吐司和三明治選擇，價格親民又美味，完美呼應「小小的錢，大大享受」的經營理念。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Environment Section -->
+<section class="uk-section uk-section-muted">
+    <div class="uk-container">
+        <h2 class="uk-heading-line uk-text-center"><span>綠崗上的美味</span></h2>
+        <div class="uk-grid-divider uk-child-width-1-2@m" uk-grid>
+            <div>
+                <img src="photo/mystore.jpg"  alt="店面照片" class="uk-width-1-1">
+            </div>
+            <div>
+                <p>綠崗早午餐 (Green Hill Brunch) 位於彰化市介壽北路1號，以「小小的錢，大大享受」為品牌理念，致力於提供顧客一個舒適、放鬆且高品質的早午餐體驗。店內裝潢採現代簡約設計，溫暖的木質桌椅搭配質感皮革座椅，營造出安靜、舒適的用餐氛圍，讓每位顧客能夠在悠閒的空間中，享受美味且營養均衡的餐點。
+
+                    綠崗早午餐主打多樣化且精緻的餐點選擇，特別推薦的人氣餐點包括「雞腿排蛋三明治」、「海鹽牛五花三明治」以及經典的「總匯三明治」，所有三明治皆選用新鮮食材，搭配美生菜、牛番茄、小黃瓜、起司及自製福源花生醬，口味豐富且層次分明。此外，肉品均嚴格把關，國產豬肉和美國牛肉的新鮮品質保證，讓顧客食得安心又滿足。
+                    
+                    除了招牌三明治外，碳烤吐司系列也是店內的特色之一，包括豬排蛋吐司、鮪魚蛋吐司及培根蛋吐司等選項，簡單卻充滿家常風味，搭配清爽沙拉與營養均衡的食材組合，提供顧客輕鬆滿足的餐飲體驗。
+                    
+                    無論是家庭聚餐、朋友相約，或是獨自一人享受寧靜的早晨時光，綠崗早午餐都是一個理想的選擇。親民的價格與用心製作的美味餐點，讓每一位來訪的顧客都能真正感受到「小小的錢，大大享受」的愉悅。綠崗早午餐誠摯地歡迎每位顧客到訪，一同享受美好的一天從豐盛的早午餐開始！</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recommended Products Section -->
+<section class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h2 class="uk-heading-line uk-text-center"><span>店長溫馨推薦</span></h2>
+        <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <img src="photo/雞腿排蛋三明治.jpg" alt="商品1" class="uk-border-circle" style="width: 150px; height: 150px;">
+                    <h3 class="uk-card-title">雞腿排蛋三明治</h3>
+                    <p>嚴選新鮮雞腿排，經過精心調味並煎至金黃多汁，搭配滑嫩雞蛋、美生菜、牛番茄、小黃瓜與起司，抹上特製福源花生醬，口感豐富且層次分明，讓您每一口都吃得到雞腿的香嫩與花生醬的獨特香氣。</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <img src="photo/海鹽牛五花三明治.jpg" alt="商品2" class="uk-border-circle" style="width: 150px; height: 150px;">
+                    <h3 class="uk-card-title">海鹽牛五花三明治</h3>
+                    <p>嚴選美國牛五花，撒上海鹽後烤至香嫩多汁，搭配新鮮生菜、番茄、小黃瓜、濃郁起司及滑順雞蛋，創造出鹹香平衡的極致美味。每一口都帶有牛肉的柔嫩口感，是饕客不容錯過的經典三明治。</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <img src="photo/總匯三明治.jpg" alt="商品3" class="uk-border-circle" style="width: 150px; height: 150px;">
+                    <h3 class="uk-card-title">總匯三明治</h3>
+                    <p>四片鬆軟吐司層層堆疊，內含國產豬排、大火腿、培根、滑嫩雞蛋、新鮮生菜、小黃瓜與牛番茄，佐以特製福源花生醬與清爽沙拉醬，豐富的食材完美融合，飽足又美味，是經典又超值的早午餐首選！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="uk-section uk-section-small uk-section-muted uk-text-center">
+    <div class="uk-container">
+        <div class="uk-grid-divider uk-child-width-1-4@s" uk-grid>
+            <div>
+                <h4>關於我們</h4>
+                <p>了解我們的品牌故事與理念。</p>
+            </div>
+            <div>
+                <h4>最新消息</h4>
+                <p>掌握最新的活動與促銷資訊。</p>
+            </div>
+            <div>
+                <h4>顧客服務</h4>
+                <p>需要幫助？歡迎聯繫我們。</p>
+            </div>
+            <div>
+                <h4>追蹤我們</h4>
+                <p>關注我們的社交媒體平台。</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Mobile Menu Offcanvas -->
+<div id="mobile-menu" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav uk-nav-default">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">關於我們</a></li>
+            <li><a href="#">產品</a></li>
+            <li><a href="#">聯絡我們</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
